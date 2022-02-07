@@ -1,0 +1,66 @@
+
+.App {
+  font-family: sans-serif;
+  
+  
+  
+  
+}
+.moviePoster{
+  width: 350px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+.movieContainer{
+  width: 350px;
+  background-color: orange;
+  padding: 20px;
+  border-radius: 5px;
+}
+.name-rating{
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+  
+}
+.movieName{
+  margin: 0;
+  
+}
+.movieSummary{
+  margin-top: 0px;
+}
+.movieRating{
+  font-size: 16px;
+}
+.movieList{
+  display: flex;
+  gap:10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.counterContainer{
+  display: flex;
+  gap: 10px;
+}
+.likeDislike{
+  font-size: 15px;
+  padding: 3px;
+  border-radius: 5px;
+  border-color: yellow;
+}
+.ColorBar{
+  margin-top: 10px;
+}
+.addMovie{
+display: flex;
+flex-direction: column;
+gap:10px;
+
+}
+.colorContainer{
+  display: flex;
+  justify-content: space-around;
+
+}
